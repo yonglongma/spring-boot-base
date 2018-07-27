@@ -12,7 +12,6 @@ import tk.mybatis.mapper.common.special.InsertListMapper;
  * -------------------------------------------------------------------------
  * Modified Date		Modified By			Why & What's modified
  * -------------------------------------------------------------------------
- *
  */
 public interface Mapper<T> extends BaseMapper<T>, ConditionMapper<T>, IdsMapper<T>, InsertListMapper<T> {
 }
